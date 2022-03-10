@@ -55,3 +55,14 @@ let experienceByProfession = teamMembers.reduce((acc, curr) => {
   return acc;
 }, {});
 console.log(experienceByProfession);
+
+// let nameByProfession = teamMembers.reduce((acc, curr) => {
+//   let key = curr.profession;
+//   if(!acc[key]){
+//     acc[key] = curr.name;
+//   } else {
+//     acc[key].push(curr.name);
+//   }
+//   return acc;
+// }, {});
+// console.log(nameByProfession);
